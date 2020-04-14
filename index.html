@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home Page</title>
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+</head>
+<body>
+	<div class="main_wrapper">
+		<header>
+			<div class="container">
+				<div class="logo">
+					<img src="images/logo.png" alt="Logo">
+				</div>
+				<ul class="nav">
+					<li><a href="#" class="contact">Contact Us</a></li>
+					<li><a href="#">Sign In</a></li>
+					<li class="cart">
+						<a href="#">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.607 17.607"><g data-name="shopping-cart"><path data-name="Path 10" d="M5.282 14.086a1.761 1.761 0 1 0 1.761 1.761 1.766 1.766 0 0 0-1.761-1.761zM0 0v1.761h1.761L4.93 8.452 3.7 10.564a3.128 3.128 0 0 0-.176.88 1.766 1.766 0 0 0 1.761 1.761h10.562v-1.76H5.634a.189.189 0 0 1-.176-.176v-.088l.792-1.5h6.515a1.606 1.606 0 0 0 1.5-.88l3.169-5.722a.485.485 0 0 0 .176-.44.832.832 0 0 0-.88-.88H3.7L2.905 0zm14.086 14.086a1.761 1.761 0 1 0 1.761 1.761 1.766 1.766 0 0 0-1.761-1.761z" fill="#fff"/></g></svg>		
+						</a>
+					</li>
+					<li class="home_menu">
+						<a href="#" onclick="openNav()">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.169 18.779"><path d="M0 18.779v-3.13h28.169v3.13zm0-7.824v-3.13h28.169v3.13zM0 3.13V0h28.169v3.13z" fill="#fff"/></svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div id="myNav" class="overlay">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<div class="overlay-content">
+					<a href="#">About</a>
+					<a href="#">Services</a>
+					<a href="#">Products</a>
+					<a href="#">Contact</a>
+				</div>
+			</div>
+		</header>
+		<section class="banner">
+			<div class="container">
+				<div class="banner_text animated fadeInLeft">
+					<span>New Beggining</span>
+					<h1>Get Started <br> Now</h1>
+					<button>Join Now</button>
+				</div>
+				<div class="banner_image animated fadeInRight">
+					<img src="images/banner_pic.png">
+				</div>
+			</div>
+		</section>
+
+		<section class="training">
+			<div class="container">
+				<h2>We Do Training for</h2>
+				<div class="training_blk">
+					<div class="training_div_left animated zoomIn">
+						<span class="serv crkt">Cricket</span>
+						<span class="serv tenis">Tennis</span>
+						<span class="serv fotbl">Football</span>
+					</div>
+					<div class="training_div_right">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<button class="btn_yellow">Explore</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="tennis_blk">
+			<div class="container">
+					<div class="img_blk animated fadeInLeft">
+						<img src="images/tennis_pic.png">
+					</div>
+				<div class="tennis_rgt_blk">
+					<h2>Welcome to our new Tennis Team!</h2>
+					<button class="btn_black">Join Now</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="cricket_blk">
+			<div class="container">
+				<div class="cricket_blk_text">
+					<h2>Want to play Cricket, <br> Join with us Now.</h2>
+					<button>Join Now</button>
+				</div>
+				<div class="img_blk animated fadeInRight">
+					<img src="images/cricket_pic.png">
+				</div>
+			</div>
+		</section>
+
+		<section class="product_blk">
+			<div class="prdct_lft">
+				<div class="featured">
+					<div>
+						<p>Featured <br> <span>Products</span></p>
+						<button class="btn_black">View All</button>
+					</div>
+					<img src="images/cricket_products.png">
+				</div>
+				<div class="prdct_dwn">
+					<a href="#" class="prdct_mre lft">
+						<img src="images/boot.png">
+					</a>
+					<a href="#" class="prdct_mre rgt">
+						<img src="images/soccer_ball.png">
+					</a>
+				</div>
+			</div>
+			<div class="prdct_rght animated fadeInRight">
+				<a href="#">
+					
+				</a>
+				<div class="prdct_cntent">
+					<p>Racket & <br> <span>Single Tennis Ball</span>
+					</p>
+					<p class="price">Rs 4500</p>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="container">
+				<div>
+					<span>@ 2019 virtual reality sporting company  | All rights reserved</span>
+				</div>
+				<div class="social_links">
+					<a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10.031 18.553"><path data-name="Path 2" d="M9.653 0H7.247a4.225 4.225 0 0 0-4.45 4.566v2.105H.378A.378.378 0 0 0 0 7.05v3.05a.378.378 0 0 0 .378.378h2.419v7.7a.378.378 0 0 0 .378.378h3.156a.378.378 0 0 0 .378-.378v-7.7h2.829a.378.378 0 0 0 .378-.378V7.05a.379.379 0 0 0-.379-.379H6.71V4.887c0-.858.2-1.293 1.322-1.293h1.621a.378.378 0 0 0 .378-.378V.382A.378.378 0 0 0 9.653 0z" fill="#fff"/></svg></a>
+
+					<a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.473 17.473"><g data-name="Group 5"><g data-name="Group 4"><path data-name="Path 3" d="M12.752 0H4.721A4.727 4.727 0 0 0 0 4.721v8.031a4.727 4.727 0 0 0 4.721 4.721h8.031a4.727 4.727 0 0 0 4.721-4.721V4.721A4.727 4.727 0 0 0 12.752 0zm3.31 12.752a3.313 3.313 0 0 1-3.31 3.31H4.721a3.313 3.313 0 0 1-3.31-3.31V4.721a3.313 3.313 0 0 1 3.31-3.31h8.031a3.313 3.313 0 0 1 3.31 3.31z" fill="#fff"/></g></g><g data-name="Group 7"><g data-name="Group 6"><path data-name="Path 4" d="M12.646 8.128a3.918 3.918 0 1 0-3.884 4.494 3.973 3.973 0 0 0 .583-.043 3.918 3.918 0 0 0 3.3-4.45zm-3.508 3.054a2.506 2.506 0 1 1 2.112-2.847 2.489 2.489 0 0 1-2.112 2.847z" fill="#fff"/></g></g><g data-name="Group 9"><g data-name="Group 8"><path data-name="Path 5" d="M13.653 3.821a.706.706 0 1 0 .207.5.711.711 0 0 0-.207-.5z" fill="#fff"/></g></g></svg></a>
+
+					<a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.688 17.071"><g data-name="Group 10" fill="#fff"><path data-name="Path 6" d="M.607 17.071h2.429a.607.607 0 0 0 .607-.607V5.845a.607.607 0 0 0-.607-.607H.607A.607.607 0 0 0 0 5.845v10.619a.607.607 0 0 0 .607.607z"/><path data-name="Path 7" d="M.607 3.371h2.429a.607.607 0 0 0 .607-.607V.607A.607.607 0 0 0 3.036 0H.607A.607.607 0 0 0 0 .607v2.157a.607.607 0 0 0 .607.607z"/><path data-name="Path 8" d="M17.774 6.47a3.694 3.694 0 0 0-1.51-1.109 5.469 5.469 0 0 0-2.2-.434 5.4 5.4 0 0 0-4.148 1.869c-.226.248-.39.194-.39-.142v-.809a.607.607 0 0 0-.607-.607h-2.17a.607.607 0 0 0-.607.607v10.619a.607.607 0 0 0 .607.607h2.429a.607.607 0 0 0 .607-.607v-3.693a11.881 11.881 0 0 1 .279-3.164 2.613 2.613 0 0 1 1.031-1.374 2.922 2.922 0 0 1 1.7-.519 2.168 2.168 0 0 1 1.264.363 2.023 2.023 0 0 1 .759 1.018 10.858 10.858 0 0 1 .233 2.885v4.484a.607.607 0 0 0 .607.607h2.429a.607.607 0 0 0 .607-.607V10.45a11.389 11.389 0 0 0-.2-2.45 4.013 4.013 0 0 0-.72-1.53z"/></g></svg></a>
+
+					<a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.275 15.661"><g data-name="Group 11"><path data-name="Path 9" d="M19.275 1.854A8.239 8.239 0 0 1 17 2.478 3.929 3.929 0 0 0 18.738.294a7.9 7.9 0 0 1-2.506.957 3.951 3.951 0 0 0-6.835 2.7 4.069 4.069 0 0 0 .092.9A11.185 11.185 0 0 1 1.342.72 3.953 3.953 0 0 0 2.556 6a3.9 3.9 0 0 1-1.785-.487v.043a3.97 3.97 0 0 0 3.166 3.883 3.944 3.944 0 0 1-1.036.13 3.494 3.494 0 0 1-.748-.067 3.989 3.989 0 0 0 3.692 2.753 7.94 7.94 0 0 1-4.9 1.685A7.4 7.4 0 0 1 0 13.887a11.125 11.125 0 0 0 6.062 1.773A11.169 11.169 0 0 0 17.309 4.416c0-.175-.006-.343-.014-.511a7.883 7.883 0 0 0 1.98-2.051z" fill="#fff"/></g></svg></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

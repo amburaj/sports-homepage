@@ -165,7 +165,7 @@ header {
     top: 0px;
     z-index: 10;
     width: 100%;
-    animation: slide-down 0.7s;
+    /*animation: slide-down 0.7s;*/
 }
 
 .container {
